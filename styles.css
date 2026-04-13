@@ -675,6 +675,59 @@ ul {
   gap: 0.6rem;
 }
 
+/* Featured Card Style (Revisão Completa) */
+.service-card.highlight {
+  background: var(--navy);
+  border-color: rgba(255,255,255,0.1);
+  color: white;
+}
+
+.service-card.highlight .service-title {
+  color: white;
+}
+
+.service-card.highlight .service-desc {
+  color: rgba(255,255,255,0.8);
+}
+
+.service-card.highlight .service-icon-wrap {
+  background: white;
+}
+
+.service-card.highlight .service-icon,
+.service-card.highlight svg {
+  color: var(--navy) !important;
+  stroke: var(--navy) !important;
+}
+
+.service-card.highlight .price-tag {
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+
+.service-card.highlight .service-cta {
+  background: var(--gradient-cta);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-sm);
+  width: 100%;
+  justify-content: center;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-card.highlight .service-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow-green);
+}
+
+.service-card.highlight .service-cta i {
+  display: none; /* Hide icon to match image better */
+}
+
+
 /* ════════════════════════════════════════════════
    TRUST STRIP
    ════════════════════════════════════════════════ */
