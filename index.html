@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Serviços Automotivo | Mecânica de Confiança em Praia Grande - SP</title>
+  <meta name="description" content="World Serviços Automotivo - Mecânica especializada em Praia Grande, SP. Serviços de motor, suspensão, freios, câmbio, elétrica e mais. Agende já pelo WhatsApp!">
+  <meta name="keywords" content="mecânica, oficina mecânica, Praia Grande, serviços automotivos, reparo de veículos, manutenção de carros">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="World Serviços Automotivo | Mecânica em Praia Grande">
+  <meta property="og:description" content="Mecânica especializada em Praia Grande, SP. Motor, suspensão, freios, câmbio, elétrica e mais. Agende pelo WhatsApp!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero-fallback.png">
+  <meta property="og:locale" content="pt_BR">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <meta name="theme-color" content="#0B2559">
+  
+  <!-- Google Fonts: Montserrat (Classical) + Open Sans (Clean) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- NAVBAR -->
+  <!-- ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="assets/logo.png" alt="World Serviços Automotivo Logo" class="nav-logo-img">
+        <div class="nav-logo-text">
+          <span class="nav-brand">WORLD</span>
+          <span class="nav-sub">Serviços Automotivo</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#avaliacoes" class="nav-link">Avaliações</a></li>
+        <li><a href="#localizacao" class="nav-link">Localização</a></li>
+        <li><a href="https://wa.me/5513981409532?text=Olá! Vim pelo site e gostaria de informações." class="nav-link nav-cta" target="_blank" rel="noopener">
+          <i data-lucide="message-circle" class="icon-sm"></i>
+          WhatsApp
+        </a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- HERO SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-video-wrapper">
+      <img src="assets/hero-image.jpg" alt="Carro de luxo Mercedes Benz" class="hero-video">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i data-lucide="shield-check" class="icon-sm"></i>
+        <span>Mecânica de Confiança desde 2010</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-title-line">SEU VEÍCULO</span>
+        <span class="hero-title-line hero-title-accent">EM BOAS MÃOS</span>
+      </h1>
+      <p class="hero-description">
+        Qualidade, transparência e compromisso com o seu carro.<br>
+        Diagnóstico preciso e serviço profissional em Praia Grande - SP.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5513981409532?text=Olá! Gostaria de agendar um serviço." class="btn btn-primary" id="heroCta" target="_blank" rel="noopener">
+          <i data-lucide="message-circle" class="icon-sm"></i>
+          Agendar pelo WhatsApp
+        </a>
+        <a href="#servicos" class="btn btn-outline">
+          <i data-lucide="wrench" class="icon-sm"></i>
+          Nossos Serviços
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-count="10">0</span><span class="hero-stat-plus">+</span>
+          <span class="hero-stat-label">Anos de Experiência</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-count="1000">0</span><span class="hero-stat-plus">+</span>
+          <span class="hero-stat-label">Clientes Atendidos</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-number">5.0</span>
+          <span class="hero-stat-label">
+            <span class="stars">★★★★★</span>
+            no Google
+          </span>
+        </div>
+      </div>
+    </div>
+    <a href="#servicos" class="hero-scroll" aria-label="Rolar para serviços">
+      <i data-lucide="chevrons-down" class="icon-bounce"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- SERVIÇOS -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="section services" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">O que fazemos</span>
+        <h2 class="section-title">Nossos Serviços</h2>
+        <p class="section-subtitle">Oferecemos uma gama completa de serviços automotivos para manter seu veículo sempre em perfeito estado.</p>
+      </div>
+      <div class="services-grid">
+
+
+
+        <!-- Card 2: Suspensão -->
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <i data-lucide="git-branch" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Suspensão e Direção</h3>
+          <p class="service-desc">Troca de amortecedores, pivôs, bandejas, terminais e alinhamento. Segurança e conforto para sua condução.</p>
+          <div class="service-price">
+            <span class="price-tag">Preço sob consulta</span>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de saber mais sobre o serviço de Suspensão e Direção." class="service-cta" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-xs"></i>
+            Consultar via WhatsApp
+          </a>
+        </div>
+
+        <!-- Card 3: Freios -->
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <i data-lucide="shield" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Sistema de Freios</h3>
+          <p class="service-desc">Troca de pastilhas, discos, lonas, tambores e fluido de freio. Sua segurança é nossa prioridade.</p>
+          <div class="service-price">
+            <span class="price-tag">Preço sob consulta</span>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de saber mais sobre o serviço de Freios." class="service-cta" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-xs"></i>
+            Consultar via WhatsApp
+          </a>
+        </div>
+
+        <!-- Card 4: Câmbio -->
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <i data-lucide="settings" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Câmbio e Embreagem</h3>
+          <p class="service-desc">Reparo e revisão de câmbio manual e automático. Troca de kit embreagem e volante bimassa.</p>
+          <div class="service-price">
+            <span class="price-tag">Preço sob consulta</span>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de saber mais sobre o serviço de Câmbio e Embreagem." class="service-cta" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-xs"></i>
+            Consultar via WhatsApp
+          </a>
+        </div>
+
+        <!-- Card 5: Elétrica -->
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <i data-lucide="zap" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Elétrica Automotiva</h3>
+          <p class="service-desc">Diagnóstico eletrônico, reparo de chicotes, alternador, motor de partida e sistema de iluminação completo.</p>
+          <div class="service-price">
+            <span class="price-tag">Preço sob consulta</span>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de saber mais sobre o serviço de Elétrica Automotiva." class="service-cta" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-xs"></i>
+            Consultar via WhatsApp
+          </a>
+        </div>
+
+
+
+        <!-- Card 7: Injeção Eletrônica -->
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <i data-lucide="cpu" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Injeção Eletrônica</h3>
+          <p class="service-desc">Limpeza de bicos injetores, reparo de sensores, leitura de códigos de falha e reprogramação de módulos.</p>
+          <div class="service-price">
+            <span class="price-tag">Preço sob consulta</span>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de saber mais sobre o serviço de Injeção Eletrônica." class="service-cta" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-xs"></i>
+            Consultar via WhatsApp
+          </a>
+        </div>
+
+        <!-- Card 8: Revisão Geral -->
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <i data-lucide="clipboard-check" class="service-icon"></i>
+          </div>
+          <h3 class="service-title">Revisão Completa</h3>
+          <p class="service-desc">Revisão preventiva com troca de óleo, filtros, velas, correias e checagem de todos os sistemas do veículo.</p>
+          <div class="service-price">
+            <span class="price-tag">Preço sob consulta</span>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de saber mais sobre o serviço de Revisão Completa." class="service-cta" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-xs"></i>
+            Consultar via WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- STRIP DE CONFIANÇA -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="trust-strip">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item" data-animate>
+          <div class="trust-icon-wrap">
+            <i data-lucide="award" class="trust-icon"></i>
+          </div>
+          <div class="trust-content">
+            <span class="trust-number" data-count="10">0</span>
+            <span class="trust-label">Anos no Mercado</span>
+          </div>
+        </div>
+        <div class="trust-item" data-animate>
+          <div class="trust-icon-wrap">
+            <i data-lucide="users" class="trust-icon"></i>
+          </div>
+          <div class="trust-content">
+            <span class="trust-number" data-count="1000">0</span>
+            <span class="trust-label">Clientes Satisfeitos</span>
+          </div>
+        </div>
+        <div class="trust-item" data-animate>
+          <div class="trust-icon-wrap">
+            <i data-lucide="wrench" class="trust-icon"></i>
+          </div>
+          <div class="trust-content">
+            <span class="trust-number" data-count="8">0</span>
+            <span class="trust-label">Tipos de Serviços</span>
+          </div>
+        </div>
+        <div class="trust-item" data-animate>
+          <div class="trust-icon-wrap">
+            <i data-lucide="star" class="trust-icon"></i>
+          </div>
+          <div class="trust-content">
+            <span class="trust-number">5.0</span>
+            <span class="trust-label">Avaliação Google</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- SOBRE / DIFERENCIAIS -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="section about" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="assets/about-image.jpg" alt="Equipe World Serviços Automotivo trabalhando" loading="lazy">
+          <div class="about-image-badge">
+            <span class="about-badge-number">10+</span>
+            <span class="about-badge-text">Anos de<br>Experiência</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag">Quem somos</span>
+          <h2 class="section-title">World Serviços Automotivo</h2>
+          <p class="about-text">
+            Localizada em Praia Grande - SP, a <strong>World Serviços Automotivo</strong> é referência em mecânica de carros na região. Com mais de 10 anos de experiência, nossa equipe de profissionais qualificados está pronta para cuidar do seu veículo com qualidade, transparência e agilidade.
+          </p>
+          <p class="about-text">
+            Utilizamos equipamentos de última geração para diagnóstico e reparo, garantindo que cada serviço seja realizado com máxima precisão e eficiência.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <i data-lucide="check-circle" class="icon-sm"></i>
+              </div>
+              <div>
+                <strong>Profissionais Certificados</strong>
+                <span>Equipe treinada e qualificada</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <i data-lucide="check-circle" class="icon-sm"></i>
+              </div>
+              <div>
+                <strong>Peças Originais</strong>
+                <span>Qualidade e garantia de fábrica</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <i data-lucide="check-circle" class="icon-sm"></i>
+              </div>
+              <div>
+                <strong>Diagnóstico Eletrônico</strong>
+                <span>Tecnologia de ponta</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <i data-lucide="check-circle" class="icon-sm"></i>
+              </div>
+              <div>
+                <strong>Atendimento Transparente</strong>
+                <span>Orçamento sem compromisso</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- AVALIAÇÕES -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="section reviews" id="avaliacoes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Depoimentos</span>
+        <h2 class="section-title">O que nossos clientes dizem</h2>
+        <div class="reviews-aggregate">
+          <span class="reviews-score">5.0</span>
+          <span class="stars-lg">★★★★★</span>
+          <span class="reviews-count">7 avaliações no Google</span>
+        </div>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card" data-animate>
+          <div class="review-header">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #327355, #0B2559);">RC</div>
+            <div class="review-meta">
+              <span class="review-name">Roberto Carvalho</span>
+              <span class="review-date">há 2 semanas</span>
+            </div>
+            <div class="review-google">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+          </div>
+          <p class="review-text">"Excelente atendimento! Levei meu carro com problema no motor e resolveram rapidamente. Preço justo e serviço de qualidade. Super recomendo!"</p>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="review-header">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #591C21, #0B2559);">MF</div>
+            <div class="review-meta">
+              <span class="review-name">Mariana Ferreira</span>
+              <span class="review-date">há 1 mês</span>
+            </div>
+            <div class="review-google">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+          </div>
+          <p class="review-text">"Sempre trago meu carro aqui. Pessoal muito honesto e competente. Fazem o diagnóstico certeiro e mostram tudo antes de começar o serviço."</p>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="review-header">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0B2559, #327355);">LS</div>
+            <div class="review-meta">
+              <span class="review-name">Lucas Santos</span>
+              <span class="review-date">há 1 mês</span>
+            </div>
+            <div class="review-google">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+          </div>
+          <p class="review-text">"Fiz a revisão completa e ficou perfeito. O carro saiu como novo! Atendimento rápido pelo WhatsApp e entrega no prazo combinado."</p>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="review-header">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #327355, #591C21);">AP</div>
+            <div class="review-meta">
+              <span class="review-name">Amanda Pereira</span>
+              <span class="review-date">há 2 meses</span>
+            </div>
+            <div class="review-google">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+          </div>
+          <p class="review-text">"Mecânica nota 10! Tive problema na suspensão e resolveram no mesmo dia. Muito atenciosos, explicaram tudo detalhadamente. Voltarei sempre!"</p>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="review-header">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0B2559, #591C21);">JO</div>
+            <div class="review-meta">
+              <span class="review-name">João Oliveira</span>
+              <span class="review-date">há 3 meses</span>
+            </div>
+            <div class="review-google">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+          </div>
+          <p class="review-text">"Melhor oficina da região! Conheço há anos e nunca me decepcionaram. Serviço impecável no câmbio automático do meu carro. Recomendo demais!"</p>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="review-header">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #591C21, #327355);">CS</div>
+            <div class="review-meta">
+              <span class="review-name">Camila Souza</span>
+              <span class="review-date">há 3 meses</span>
+            </div>
+            <div class="review-google">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+          </div>
+          <p class="review-text">"Ótima oficina! Resolveram o problema da elétrica do meu carro que outras oficinas não conseguiram. Profissionais de verdade. Preço honesto!"</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- LOCALIZAÇÃO + CONTATO -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="section location" id="localizacao">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Onde estamos</span>
+        <h2 class="section-title">Localização e Contato</h2>
+      </div>
+      <div class="location-grid">
+        <div class="location-map">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.649171960249!2d-46.50525868447262!3d-24.02166008444747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1c4c810574bb%3A0x8544a0e1011680d6!2sRua+Santo+Ant%C3%B4nio+de+P%C3%A1dua%2C+130+-+Nova+Mirim%2C+Praia+Grande+-+SP%2C+11717-070!5e0!3m2!1spt-BR!2sbr!4v1680000000000!5m2!1spt-BR!2sbr"
+            width="100%" 
+            height="100%" 
+            style="border:0; border-radius: 16px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização World Serviços Automotivo">
+          </iframe>
+        </div>
+        <div class="location-info">
+          <div class="contact-card">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <strong>Endereço</strong>
+                <p>Av. Santo Antônio de Pádua, Nº 130<br>Nova Mirim, Praia Grande - SP<br>CEP: 11717-070</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="phone"></i>
+              </div>
+              <div>
+                <strong>Telefone / WhatsApp</strong>
+                <p><a href="tel:+5513981409532">(13) 98140-9532</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="clock"></i>
+              </div>
+              <div>
+                <strong>Horário de Funcionamento</strong>
+                <p>Segunda a Sexta: 09:00 - 18:00<br>Sábado: 09:00 - 13:00<br>Domingo: Fechado</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="car"></i>
+              </div>
+              <div>
+                <strong>Especialidade</strong>
+                <p>Mecânica de carros em Praia Grande, São Paulo</p>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.me/5513981409532?text=Olá! Gostaria de agendar um serviço na oficina." class="btn btn-primary btn-full" target="_blank" rel="noopener">
+            <i data-lucide="message-circle" class="icon-sm"></i>
+            Fale Conosco pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- CTA FINAL -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section class="cta-section" id="contato">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Precisa de um serviço automotivo?</h2>
+        <p class="cta-text">Entre em contato agora mesmo pelo WhatsApp e agende seu atendimento. Orçamento rápido e sem compromisso!</p>
+        <a href="https://wa.me/5513981409532?text=Olá! Vim pelo site e gostaria de solicitar um orçamento." class="btn btn-cta-final" target="_blank" rel="noopener">
+          <i data-lucide="message-circle" class="icon-sm"></i>
+          Solicitar Orçamento Grátis
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="World Serviços Automotivo" class="footer-logo">
+          <p class="footer-desc">Mecânica de confiança em Praia Grande - SP. Qualidade e transparência em todos os serviços.</p>
+          <div class="footer-rating">
+            <span class="stars">★★★★★</span>
+            <span>5.0 - Google</span>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Serviços</h4>
+          <ul>
+
+            <li><a href="#servicos">Suspensão e Direção</a></li>
+            <li><a href="#servicos">Sistema de Freios</a></li>
+            <li><a href="#servicos">Câmbio e Embreagem</a></li>
+            <li><a href="#servicos">Elétrica Automotiva</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Contato</h4>
+          <ul>
+            <li>
+              <i data-lucide="map-pin" class="icon-xs"></i>
+              Av. Santo Antônio de Pádua, Nº 130<br>Nova Mirim, Praia Grande - SP
+            </li>
+            <li>
+              <i data-lucide="phone" class="icon-xs"></i>
+              <a href="tel:+5513981409532">(13) 98140-9532</a>
+            </li>
+            <li>
+              <i data-lucide="clock" class="icon-xs"></i>
+              Seg-Sex: 09:00 - 18:00<br>Sábado: 09:00 - 13:00
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 World Serviços Automotivo. Todos os direitos reservados.</p>
+        <p>CNPJ: Mecânica de carros em Praia Grande - SP</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/5513981409532?text=Olá! Vim pelo site e preciso de ajuda." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contato WhatsApp" id="whatsappFloat">
+    <svg viewBox="0 0 32 32" class="whatsapp-icon">
+      <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.92 15.92 0 0016.004 32C24.826 32 32 24.826 32 16.004 32 7.176 24.826 0 16.004 0zm9.31 22.606c-.39 1.1-1.932 2.014-3.16 2.28-.842.18-1.94.324-5.636-1.212-4.726-1.964-7.77-6.756-8.006-7.07-.226-.314-1.9-2.532-1.9-4.83s1.2-3.428 1.628-3.898c.39-.426 1.028-.618 1.636-.618.198 0 .376.01.536.018.47.02.706.048 1.016.786.39.924 1.34 3.268 1.458 3.506.12.238.238.546.086.86-.142.324-.268.468-.506.74-.238.272-.464.48-.702.774-.218.258-.464.534-.196.998.268.464 1.192 1.964 2.558 3.182 1.756 1.566 3.236 2.052 3.698 2.28.352.174.77.138 1.048-.148.354-.364.792-.966 1.236-1.558.318-.42.716-.474 1.104-.318.394.148 2.482 1.172 2.908 1.386.426.214.71.318.816.498.104.182.104 1.04-.286 2.14z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "framer-motion": "^12.38.0"
+  },
+  "devDependencies": {
+    "uipro-cli": "^2.2.3"
+  }
+}
